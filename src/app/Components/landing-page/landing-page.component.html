@@ -1,0 +1,18 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Designation</th>
+        <th scope="col">Joining date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let e of data">
+        <th scope="row">{{}]</th>
+        <td>{{e.name}}</td>
+        <td>{{e.desig}}</td>
+        <td>{{e.doj}}</td>
+      </tr>
+    </tbody>
+  </table>
